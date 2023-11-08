@@ -38,14 +38,14 @@ search.addEventListener('click', () => {
                 //sky clean no rain very sun
                 case 'Clear':
                     image.src = '/img/clear.png';
-                    document.getElementById('background').style.backgroundImage = "URL('../../img/sol.jpg')"
+                    document.getElementById('background').style.backgroundImage = "URL('/img/sol.jpg')"
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
                 // is rain
                 case 'Rain':
                     image.src = '/img/rain.png';
-                    document.getElementById('background').style.backgroundImage = "URL('../../img/chuva.jpg')"
+                    document.getElementById('background').style.backgroundImage = "URL('/img/chuva.jpg')"
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
@@ -53,14 +53,14 @@ search.addEventListener('click', () => {
                 case 'Snow':
                     image.src = '/img/snow.png';
 
-                    document.getElementById('background').style.backgroundImage = "URL('../../img/neve.jpg')"
+                    document.getElementById('background').style.backgroundImage = "URL('/img/neve.jpg')"
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
 
                 case 'Clouds':
                     image.src = '/img/cloud.png';
-                    document.getElementById('background').style.backgroundImage = "URL('../../img/nublado.jpeg')"
+                    document.getElementById('background').style.backgroundImage = "URL('/img/nublado.jpeg')"
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
