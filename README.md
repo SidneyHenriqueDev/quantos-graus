@@ -15,10 +15,7 @@ Este é um aplicativo simples para verificar a temperatura de acordo com sua cid
 
 ## Demonstração
 
-
-
-
-<img src="../img/quantos-graus.gif" alt="teste"/>
+<img src="/img/quantos-graus.gif" alt="teste"/>
 
 ## Notas
 
