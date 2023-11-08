@@ -38,7 +38,7 @@ search.addEventListener('click', () => {
                 //sky clean no rain very sun
                 case 'Clear':
                     image.src = '/img/clear.png';
-                    document.getElementById('background').style.backgroundImage = "url('../img/sol.jpg')"
+                    document.getElementById('background').style.backgroundImage = url('../img/sol.jpg')
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
