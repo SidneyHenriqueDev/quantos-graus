@@ -37,5 +37,5 @@ Este projeto possui licença gratuita.
 
 ## Veja funcionando!
 
-<a href="https://sidneyhenriquedev.github.io/quantos-graus/">Clique aqui</a>
+<a href="https://sidneyhenriquedev.github.io/quantos-graus/" target="_blank">Clique aqui</a>
 
