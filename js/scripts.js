@@ -37,36 +37,36 @@ search.addEventListener('click', () => {
             switch (data.weather[0].main) {
                 //sky clean no rain very sun
                 case 'Clear':
-                    image.src = '/img/clear.png';
-                    document.getElementById('background').style.backgroundImage = url("../img/sol.jpg")
+                    image.src = '../img/clear.png';
+                    document.getElementById('background').style.backgroundImage = url("../img/sol.jpg");
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
                 // is rain
                 case 'Rain':
-                    image.src = '/img/rain.png';
-                    document.getElementById('background').style.backgroundImage = url("../img/chuva.jpg")
+                    image.src = '../img/rain.png';
+                    document.getElementById('background').style.backgroundImage = url("../img/chuva.jpg");
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
 
                 case 'Snow':
-                    image.src = '/img/snow.png';
+                    image.src = '../img/snow.png';
 
-                    document.getElementById('background').style.backgroundImage = url("../img/neve.jpg")
+                    document.getElementById('background').style.backgroundImage = url("../img/neve.jpg");
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
 
                 case 'Clouds':
-                    image.src = '/img/cloud.png';
-                    document.getElementById('background').style.backgroundImage = url("../img/nublado.jpeg")
+                    image.src = '../img/cloud.png';
+                    document.getElementById('background').style.backgroundImage = url("../img/nublado.jpeg");
                     document.getElementById('background').style.backgroundRepeat = 'no-repat'
                     document.getElementById('background').style.backgroundSize = 'cover'
                     break;
 
                 case 'Haze':
-                    image.src = '/img/mist.png';
+                    image.src = '../img/mist.png';
                     break;
 
                 default:
