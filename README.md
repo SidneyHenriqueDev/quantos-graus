@@ -21,16 +21,6 @@ Este é um aplicativo simples para verificar a temperatura de acordo com sua cid
 
 Certifique-se de ter uma conexão com a Internet ao carregar o aplicativo, pois ele utiliza api de consulta de tempo.
 
-## Contribuição
-
-Contribuições são sempre bem-vindas! Se você deseja melhorar este projeto, siga estas etapas:
-
-1. Fork este repositório.
-2. Crie um branch: `git checkout -b feature/feature_desejada`.
-3. Faça suas alterações e faça commit delas: `git commit -m 'Adicione sua mensagem aqui'`.
-4. Envie para o branch original: `git push origin feature/feature_desejada`.
-5. Crie a solicitação de pull.
-
 ## Licença
 
 Este projeto possui licença gratuita.
